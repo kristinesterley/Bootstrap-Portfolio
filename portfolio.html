@@ -4,68 +4,107 @@
 	<meta charset="UTF-8">
 	<title>Portfolio | Kristin Esterley</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/superhero/bootstrap.min.css">
 </head>
 <body>
+	<header>
+		<nav class="navbar navbar-default">
+	  		<div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    		<div class="navbar-header">
+	    			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        	<span class="sr-only">Toggle navigation</span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		      		</button>
+	      	
+	      			<a class="navbar-brand" href="index.html">Kristin Esterley</a>
+	    		</div>
 
-	<header id="masthead">
-		<div class="container">
-			<a href="index.html" id="logo">Kristin Esterley</a>
-			<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
-			</nav>
-		</div>
+	    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+	      			<ol class="navbar-right breadcrumb">
+  						<li><a href="index.html">About</a></li>
+  						<li class="active">Portfolio</a></li>
+ 						<li><a href="contact.html">Contact</a></li>
+					</ol>
+
+	    		</div><!-- /.navbar-collapse -->
+	  		</div><!-- /.container-fluid -->
+		</nav>
 	</header>
 
-	<div id="main-container" class="container">
-		<section class="main-section">
-			<h1>Portfolio</h1>
+	<div class="container">
 
-			<div class="work">
-				<img src="assets/images/pottery.jpg" alt="Artist">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="panel panel-default">
+					  	<div class="panel-heading">
+					    	<h1 class="panel-title">Portfolio</h1>
+					  	</div>
+					  	<div class="panel-body">
+					  		<div class="container text-center">
+								<div class="row">
+									<div class="col-md-4">
+										<img src="assets/images/pottery.jpg" width="250" height="250"; alt="Artist">
+											<h4>Artist</h4>
+									</div>	
+									<div class="col-md-4">	
+										<img src="assets/images/habitat-humanity-600.jpg" width="250" height="250"; alt="Nonprofit">
+										<h4>Nonprofit</h4>
+									</div>
+								</div> <!-- end row-->	
+								<div class="row">
+									<div class = "col-md-4">
+										<img src="assets/images/preschool.jpeg" width="250" height="250"; alt="Education">
+										<h4>Education</h4>
+									</div>
+									<div class="col-md-4">
 
-				<h3>Artist</h3>
+										<img src="assets/images/author.jpeg" width="250" height="250"; alt="Writer">
+										<h4>Writer</h4>
+									</div>
+								</div>	
+								<div class="row">
+									<div class="col-md-4">	
+										<img src="assets/images/solar.jpeg" width="250" height="250"; alt="Education">
+										<h4>Clean Energy</h4>
+									</div>
+								</div>		
+					  		</div> <!--end container in panel-->
+						</div><!--end panel body-->
+					</div><!--end panel -->
+				</div> <!--end column-->	
+
+
+				<div class="col-md-3 container">
+					<div class="panel panel-default">
+					  	<div class="panel-heading">
+					    	<h3 class="panel-title">Connect with Me</h3>
+					  	</div>
+					  	<div class="panel-body">
+					            <a href="#"><img src="assets/images/GitHub-32.png" class="social" alt="GitHub" /></a>
+	        					<a href="#"><img src="assets/images/Linkedin-32.png" class="social" alt="LinkedIn" /></a>
+	        					<a href="#"><img src="assets/images/Stackoverflow-32.png" class="social" alt="Stack Overflow" /></a>
+					  	</div>
+					</div>	
+				</div> <!--end column-->
+			</div> <!--end row-->
+
+			<div class="row">
+				<br>
+
+				<br>
 			</div>
-			<div class="work">
-				<img src="assets/images/habitat-humanity-600.jpg" alt="Nonprofit">
+	</div> <!-- end container -->
 
-				<h3>Nonprofit</h3>
-			</div>
-			<div class="work">
-				<img src="assets/images/preschool.jpeg" alt="Education">
 
-				<h3>Education</h3>
-			</div>
-			<div class="work">
-				<img src="assets/images/author.jpeg" alt="Writer">
-
-				<h3>Writer</h3>
-			</div>
-			<div class="work">
-				<img src="assets/images/solar.jpeg" alt="Clean Energy">
-
-				<h3>Clean Energy</h3>
-			</div>
-
-		</section>
-
-		<section class="sidebar">
-			<div id="connect">
-				<h2>Connect with Me</h2>
-
-        <a href="https://github.com/kristinesterley" target="_blank"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="https://www.linkedin.com/in/kristin-esterley-b5130212b" target="_blank"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="https://stackoverflow.com/users/6879626/k-esterley?tab=profile" target="_blank"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-			</div>
-		</section>
-	</div>
-
-	<footer>
-		<div class="container">
-			&copy; Copyright 2016 Kristin Esterley
-		</div>
-	</footer>
 </body>
+	<nav class="navbar navbar-default navbar-fixed-bottom">
+ 	 	<div class="container text-center">
+    		<h5>&copy; Copyright 2016 Kristin Esterley</h5>
+  		</div>
+	</nav>
 </html>
